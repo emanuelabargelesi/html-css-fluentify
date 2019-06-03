@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+html {
+  background-color: white;
+}
+/* ************* HEADER PRIMA PARTE ************* */
+header {
+  background: url(img/background.jpg) no-repeat;
+  background-size: cover;
+  height: 80vh;
+  clear: both;
+}
+
+nav {
+  height: 200px;
+}
+
+nav img {
+  float: left;
+  width: 20%;
+  padding: 20px 0;
+  margin-left: 50px;
+}
+
+/* ************* HEADER PRIMA SX ************* */
+#navsinistra {
+  width: 45%;
+  padding: 40px 0;
+  float: left;
+  text-align: center;
+  font-size: 11px;
+  margin-left: -70px;
+}
+
+#navsinistra ul {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+#navsinistra li {
+  list-style-type: none;
+  text-transform: uppercase;
+  float: left;
+  /*in questo caso non ho usato calc poiché mi mandava a capo le parole
+  width: calc(100%/4);*/
+  padding: 0 10px;
+  font-weight: 700;
+}
+
+#navsinistra a {
+  text-decoration: none;
+  color: white;
+  transition: .3s background-color;
+}
+
+#navsinistra a:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+/* ************* HEADER PRIMA DX ************* */
+
+#navdestra {
+  width: 35%;
+  float: right;
+  display: inline-block;
+  padding: 40px 0;
+}
+
+#navdestra span {
+  color: rgba(189, 195, 199, 0.5);
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+#loginbutton {
+  background-color: rgba(255, 0, 0, 0.0);
+  color: white;
+  padding: 5px 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 11px;
+}
+
+#pianobutton {
+  background-color: rgb(127, 184, 2);
+  color: white;
+  padding: 5px 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+/* ************* SECONDA PARTE HEADER ************* */
+
+#secondoheader {
+  width: 60%;
+  text-align: left;
+  padding-left: 60px;
+  color: white;
+  font-size: 22px;
+  margin-left: 50px;
+}
+
+.bottoneverde {
+  background-color: rgb(127, 184, 2);
+  color: white;
+  padding: 12px 30px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* ************* MAIN ************* */
+
+main {
+  text-align: center;
+  color: gray;
+}
+
+main hr {
+  margin: 5% 5%;
+}
+
+#primotitolo {
+  background-color: rgb(249,249,249);
+  padding: 30px 30px;
+  }
+
+#primotitolo h3 {
+  padding-bottom: 10px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #373a3c;
+}
+
+#primotitolo p {
+  font-weight: 300;
+  font-size:18px;
+}
+
+
+/* ************* TRECOLONNE ************* */
+
+.trecolonne {
+  height: 500px;
+  clear: both;
+  color: #999999;
+  font-size: 15px;
+  line-height:24px;
+  font-weight: 300;
+  margin:0 0 100px 0;
+  }
+
+  .trecolonne h3 {
+    color: rgb(127,184,2);
+  }
+
+.colonnatre {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  padding: 30px 70px;
+}
+
+.colonnatre img {
+  height: 160px;
+  margin-bottom: 50px;
+}
+
+.trecolonne hr {
+  margin: 5% 45%;
+}
+
+/* ************* DUECOLONNE ************* */
+
+.secondoblocco {
+  clear: both;
+  }
+
+.colonnadue {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  margin: 0 auto;
+  }
+
+#immaginesecondoblocco {
+  width: 417px;
+  margin: 0 auto;
+}
+
+.colonnadue h2, p, a {
+  text-align: left;
+  width: 60%;
+  margin: 20px auto;
+}
+
+.colonnadue h2 {
+  line-height: 40px;
+  font-size: 30px;
+  color: #4a4a4a;
+}
+
+.colonnadue a {
+  color: #98c8f8;
+}
+
+/* ************* PARTE SOTTO DUECOLONNE ************* */
+
+.bloccodue {
+  padding: 30px 0;
+  clear: both;
+  background-color: #f9f9f9;
+  height: 150px;
+}
+
+.colonnadue span {
+  font-size: 26px;
+  margin-right: 20px;
+}
+
+.colonnadue input {
+  padding: 5px 10px;
+  margin-right: 20px;
+  box-shadow:5px 5px 2px lightgrey;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* ************* TERZO BLOCCO /BLU/ ************* */
+
+#terzoblocco {
+  background-color: rgb(13,50,90);
+  height: 500px;
+}
+
+#immaginebloccotre {
+  height: 400px;
+}
+
+#terzoblocco h3 {
+  color: white;
+  font-size: 30px;
+  padding: 80px 0 0 50px;
+}
+
+#terzoblocco h3 span {
+  color: orange;
+  font-size: 30px;
+}
+#terzoblocco p {
+  font-size: 18px;
+}
+
+#terzoblocco p a {
+  font-size: 16px;
+}
+
+.separatorebianco {
+  height: 200px;
+  background-color: white;
+}
+
+
+/* ************* FOOTER ************* */
+
+#footerbluscuro {
+  background-color: #0d325a;
+  height: 130px;
+  text-align: left;
+  padding: 50px 0 0 80px;
+  color: white;
+  line-height: 10px;
+}
+
+#footerbluscuro h2 {
+  margin-left: 50px;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+#footerbluscuro p {
+  margin-left: 50px;
+  color: grey;
+  font-size: 18px;
+}
+
+#footerbluscuro h2 a {
+  text-decoration: none;
+  color: orange;
+}
+
+
+
+#footerbluchiaro {
+ background-color: #17406b;
+ height: 400px;
+ color: white;
+ padding-top: 40px;
+}
+
+#footerbluchiaro .colonnadue {
+  padding-left: 50px;
+  text-align: left;
+}
+
+#azienda {
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+#footerbluchiaro .colonnadue  li {
+  line-height: 40px;
+  font-size: 16px;
+  list-style: none;
+  padding-left: 50px;
+}
+
+#footerbluchiaro .colonnadue a {
+  color: gray;
+  text-decoration: none;
+  }
+
+#footerbluchiaro h2{
+  padding-top: 150px;
+}
+
+#pfooteruno {
+  font-weight: bold;
+  text-align: right;
+  line-height: 60px;
+  margin-right: 500px;
+}
+
+#pfooterdue {
+  color: grey;
+  text-align: right;
+  margin-right: 500px;
+}
