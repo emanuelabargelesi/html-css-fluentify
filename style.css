@@ -22,19 +22,19 @@ nav {
 
 nav img {
   float: left;
-  width: 20%;
+  width: 15%;
   padding: 20px 0;
-  margin-left: 50px;
+  margin-left: 5%;
 }
 
 /* ************* HEADER PRIMA SX ************* */
 #navsinistra {
-  width: 45%;
+  width: 40%;
   padding: 40px 0;
   float: left;
   text-align: center;
   font-size: 11px;
-  margin-left: -70px;
+  padding-right: 5%
 }
 
 #navsinistra ul {
@@ -67,10 +67,10 @@ nav img {
 /* ************* HEADER PRIMA DX ************* */
 
 #navdestra {
-  width: 35%;
+  width: 40%;
   float: right;
   display: inline-block;
-  padding: 40px 0;
+  padding: 40px 0 40px 7%;
 }
 
 #navdestra span {
